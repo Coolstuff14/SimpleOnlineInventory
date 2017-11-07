@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cable Inventory</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="vendor/css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#">BigChill</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Help Me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 thing">
+      <div class="page-header">
+
+
+
+  <h1>Cable Inventory <small>Common Ethernet Cables</small></h1>
+</div>
+
+<table class="table table-hover" id="countTable">
+<thead>
+  <tr>
+      <th>
+          Cable Length (ft)
+      </th>
+      <th>
+          Quantity
+      </th>
+      <th>
+          Date Checked
+      </th>
+  </tr>
+</thead>
+<tbody>
+  <!-- <tr>
+      <td>
+          TB - Monthly
+      </td>
+      <td>
+          01/04/2012
+      </td>
+      <td>
+          Default
+      </td>
+  </tr> -->
+</tbody>
+</table>
+		</div>
+	</div>
+</div>
+
+<!-- jQuery -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/jsontable/jquery.jsontotable.min.js"></script>
+<script src="count.js"></script>
+<script src="js/tableCount.js"></script>
+  </body>
+</html>

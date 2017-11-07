@@ -1,0 +1,23 @@
+body, html {
+  background: url(../patterns/vintage-concrete.png) right top repeat ;
+  background-size: auto, cover;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.thing{
+  top: 100px;
+  background-color: white;
+}
+.navbar-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  background-color: #575e66;
+  color: #ffffff !important;
+}
+.navbar-custom a{
+  color: #ffffff !important;
+}
