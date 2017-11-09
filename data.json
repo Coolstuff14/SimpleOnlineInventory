@@ -1,0 +1,74 @@
+{
+   "ethernet":{
+      "id":"ethernet",
+      "name":"Ethernet Cable Inventory",
+      "minStock":"20",
+      "titles":{
+         "id0":"Cable Length (ft)",
+         "id1":"Quanity",
+         "id2":"Date Checked"
+      },
+      "rows":{
+         "5":{
+            "id":"5",
+            "date":"10/31/17",
+            "qty":"30",
+            "reqStock":"150"
+         },
+         "7":{
+            "id":"7",
+            "date":"10/31/17",
+            "qty":"150",
+            "reqStock":"200"
+         },
+         "10":{
+            "id":"10",
+            "date":"10/31/17",
+            "qty":"300",
+            "reqStock":"100"
+         },
+         "20":{
+            "id":"20",
+            "date":"11/7/2017",
+            "qty":"25",
+            "reqStock":"10"
+         }
+      }
+   },
+   "fiber":{
+      "id":"fiber",
+      "name":"OHM4 Fiber Cable Inventory",
+      "minStock":"20",
+      "titles":{
+         "id0":"Cable Length (ft)",
+         "id1":"Quanity",
+         "id2":"Date Checked"
+      },
+      "rows":{
+         "5":{
+            "id":"5",
+            "date":"10/31/17",
+            "qty":"30",
+            "reqStock":"150"
+         }
+      }
+   },
+   "switches":{
+      "id":"switches",
+      "name":"Switches",
+      "minStock":"5",
+      "titles":{
+         "id0":"Switch type",
+         "id1":"Quanity",
+         "id2":"Date Checked"
+      },
+      "rows":{
+         "x440":{
+            "id":"x440",
+            "date":"11/9/17",
+            "qty":"4",
+            "reqStock":"0"
+         }
+      }
+   }
+}
