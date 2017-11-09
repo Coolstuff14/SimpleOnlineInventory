@@ -6,8 +6,6 @@ $( document ).ready(function() {
   $.each(data, function(key, item){ //Each table in the json object
 
   createTable(item); //Create table and fill with data
-
-
 });
 
 function addJson(){
