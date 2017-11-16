@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-  $.getJSON( "count.json", function( data ) {
+  $.getJSON( "data.json", function( data ) {
 
   console.log(data);
   //addJson();
@@ -49,6 +49,9 @@ function createTable(data){
   $.each(data.titles, function(key, item){
     var markup = "<th>"+item+"</th>";
     $tbl.find("thead tr").append(markup);
+
+    //Edit button data attribute set to table ID
+    $tbl.find('#edtbtn').attr('data-table-id', ('tbl'+data.id));
   });
 
   //Append html to document
