@@ -47,11 +47,16 @@ function createTable(data){
   $tbl.find("h3").append(data.name);
   //Set table column headings
   $.each(data.titles, function(key, item){
-    var markup = "<th>"+item+"</th>";
+    if (item == "Req Stock"){
+      var markup = "<th class='hideme'>"+item+"</th>";
+    }else{
+      var markup = "<th>"+item+"</th>";
+    }
+
     $tbl.find("thead tr").append(markup);
 
     //Edit button data attribute set to table ID
-    $tbl.find('#edtbtn').attr('data-table-id', ('tbl'+data.id));
+    //$tbl.find('#edtbtn').attr('data-table-id', ('tbl'+data.id));
   });
 
   //Append html to document
@@ -88,7 +93,7 @@ function fillRows(data, id){
         }
 
       //Add to table
-      var markup = "  <tr title='"+title+"' class='"+cls+"'><td>"+ item1.id +"</td><td>"+item1.qty+"</td><td>"+item1.date+"</td></tr>";
+      var markup = "  <tr title='"+title+"' class='"+cls+"'><td>"+ item1.id +"</td><td>"+item1.qty+"</td><td class='hideme'>"+item1.reqStock+"</td><td>"+item1.date+"</td></tr>";
       $(id+" tbody").append(markup);
   });
 }

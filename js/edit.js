@@ -1,13 +1,13 @@
 $( document ).ready(function() {
 
-//triggered when modal is about to be shown
-$('#testID').on('show.bs.modal', function(e) {
 
+$('body').on('click', '#edtbtn', function() {
+    // do something
     //get data-id attribute of the clicked element
-    var bookId = $(e.relatedTarget).data('table-id');
+    // var tblID = $(this).data('table-id');
+    $('.hideme').show();
+    $('#msgbanner').show();
+    $('table').editableTableWidget();
 
-    //populate the textbox
-    console.log(bookId);
-    $(e.currentTarget).find('#testIDLabel').html(bookId);
 });
 });

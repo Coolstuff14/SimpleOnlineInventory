@@ -6,7 +6,8 @@
       "titles":{
          "id0":"Cable Length (ft)",
          "id1":"Quanity",
-         "id2":"Date Checked"
+         "id2":"Req Stock",
+         "id3":"Date Checked"
       },
       "rows":{
          "5":{
@@ -42,7 +43,8 @@
       "titles":{
          "id0":"Cable Length (ft)",
          "id1":"Quanity",
-         "id2":"Date Checked"
+         "id2":"Req Stock",
+         "id3":"Date Checked"
       },
       "rows":{
          "5":{
@@ -60,7 +62,8 @@
       "titles":{
          "id0":"Switch type",
          "id1":"Quanity",
-         "id2":"Date Checked"
+         "id2":"Req Stock",
+         "id3":"Date Checked"
       },
       "rows":{
          "x440":{
